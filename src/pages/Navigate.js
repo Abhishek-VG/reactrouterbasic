@@ -7,7 +7,8 @@ const Navigate = () => {
       <nav style={{ padding: "10px", background: "grey", color: "white" }}>
         <Link to="/one">P-one</Link> {" | "}
         <Link to="/two">P-two</Link> {" | "}
-        <Link to="/three">P-three</Link>
+        <Link to="/three">P-three</Link>{" | "}
+        <Link to="/form">P-Form</Link>
       </nav>
       <Outlet />
     </div>
